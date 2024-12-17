@@ -1,0 +1,15 @@
+.c-main {
+  padding: 20px; /* 画面端からの余白 */
+}
+
+.c-main_listContainer {
+  width: 100%; /* ulが親要素の幅全体を占めるようにする */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap; /* 折り返しを有効にする */
+  gap: 20px; /* アイテム間の間隔 */
+  list-style: none; /* リストのデフォルトスタイルを無効化 */
+  padding: 0;
+  margin: 0;
+}

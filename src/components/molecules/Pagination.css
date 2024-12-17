@@ -1,0 +1,42 @@
+.c-pagination {
+  text-align: center; /* 真ん中寄せ */
+  margin-top: 20px; /* 上側のマージンを多めに設定 */
+}
+
+.c-pagination_listContainer {
+  display: inline-flex; /* アイテムを横並びに、中央揃え */
+  list-style-type: none; /* リストのマーカーを消す */
+  padding: 0; /* パディングをリセット */
+  margin: 0; /* マージンをリセット */
+}
+
+.c-pagination_listItem {
+  margin: 0 10px; /* アイテム間のマージン */
+}
+
+.c-pagination_buttonPrev, .c-pagination_buttonNext {
+  background-color: #007bff; /* ボタンの背景色 */
+  color: #ffffff; /* テキストの色 */
+  border: none; /* ボーダーを消す */
+  padding: 10px 15px; /* ボタンの内側余白 */
+  border-radius: 5px; /* ボタンの角を丸くする */
+  cursor: pointer; /* クリック可能なカーソル */
+  font-size: 16px; /* フォントサイズ */
+  display: flex; /* アイコンとテキストを横並びに */
+  align-items: center; /* アイコンとテキストを中央揃え */
+  transition: background-color 0.3s ease; /* ホバー時の背景色変化 */
+}
+
+.c-pagination_buttonPrev:hover, .c-pagination_buttonNext:hover {
+  background-color: #0056b3; /* ホバー時の背景色変更 */
+}
+
+.c-pagination_buttonPrev::before {
+  content: '←'; /* 前のボタンの矢印アイコン */
+  margin-right: 5px; /* テキストとの間隔 */
+}
+
+.c-pagination_buttonNext::after {
+  content: '→'; /* 次のボタンの矢印アイコン */
+  margin-left: 5px; /* テキストとの間隔 */
+}

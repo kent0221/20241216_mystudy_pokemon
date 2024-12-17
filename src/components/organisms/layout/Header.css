@@ -1,0 +1,12 @@
+.c-header {
+  background-color: #f8f9fa; /* ヘッダーの背景色 */
+  padding: 10px 0; /* 上下のパディング */
+  text-align: center; /* テキストを中央揃え */
+  border-bottom: 1px solid #dee2e6; /* 下に線を引く */
+}
+
+.c-header_content h1 {
+  color: #343a40; /* テキストの色 */
+  font-size: 24px; /* フォントサイズ */
+  margin: 0; /* マージンをゼロに */
+}

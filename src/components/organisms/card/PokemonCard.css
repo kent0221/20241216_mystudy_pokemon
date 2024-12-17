@@ -1,0 +1,41 @@
+.c-card {
+  width: 260px; /* カードの幅 */
+  border-radius: 10px; /* 角の丸み */
+  background-color: #ffffff; /* 背景色 */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* 影を付ける */
+  margin: 0 auto; /* 中央揃え */
+  overflow: hidden; /* コンテンツがはみ出さないようにする */
+  transition: opacity 0.3s ease; /* 透明度の変化をスムーズにする */
+}
+
+.c-card:hover {
+  opacity: 0.8; /* ホバー時の透明度 */
+}
+
+.c-card_container {
+  padding: 20px; /* コンテナの内側余白 */
+}
+
+.c-card_title h2 {
+  font-size: 20px; /* 見出しのフォントサイズ */
+  margin-bottom: 10px; /* 下に余白を設定 */
+  text-align: center; /* 見出しを中央揃え */
+  font-size: 1.2rem;
+}
+
+.c-card_img {
+  text-align: center; /* 画像を中央揃え */
+  margin-bottom: 10px; /* 下に余白を設定 */
+}
+
+.c-card_img img {
+  max-width: 100%; /* 画像の幅を親要素に合わせる */
+  height: auto; /* 画像の縦横比を維持 */
+}
+
+.c-card_content p {
+  margin: 5px 0; /* 各段落のマージンを調整 */
+  text-align: center; /* テキストを中央揃え */
+  color: #555555; /* テキストの色 */
+  font-size: .8rem;
+}
